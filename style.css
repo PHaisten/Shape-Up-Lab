@@ -1,0 +1,22 @@
+#container {
+    width: 600px;
+    height: 600px;
+    background-color: lightgray;
+    position: relative;
+    /* display: flex; */
+    float: left;
+}
+
+.shape {
+    position: absolute;
+}
+.sidepanel {
+    /* display: flex 1; */
+    float: right;
+    margin-right: 35em;
+
+}
+
+.specs {
+    padding: .5em;
+}
