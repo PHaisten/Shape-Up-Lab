@@ -1,22 +1,42 @@
+.background {
+    background-color: #254E58;
+}
+
+.header {
+    font-family: Helvetica;
+    text-align: center;
+    color: whitesmoke;
+}
+
 #container {
     width: 600px;
     height: 600px;
-    background-color: lightgray;
+    background-color: #112D32;
     position: relative;
     /* display: flex; */
     float: left;
 }
 
-.shape {
+.Rectangle {
+    position: absolute;
+}
+.Square {
+    position: absolute;
+}
+.Circle {
+    position: absolute;
+}
+.Triangle {
     position: absolute;
 }
 .sidepanel {
-    /* display: flex 1; */
     float: right;
-    margin-right: 35em;
+    position: relative;
+    
 
 }
 
 .specs {
     padding: .5em;
+    font-family: Helvetica;
 }
