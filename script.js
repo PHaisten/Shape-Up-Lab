@@ -123,7 +123,7 @@ class Triangle extends Shape {
       this.describe();
       let triRadius = "N/A";
       let triArea = 0.5 * hT * hT;
-      let triPeri = 2 * hT + Math.sqrt(2) * hT;
+      let triPeri = Math.floor(2 * hT + Math.sqrt(2) * hT);
       shapeRadius.innerHTML = `Radius: ${triRadius}`;
       shapeArea.innerHTML = `Area: ${triArea}`;
       shapePerimeter.innerHTML = `Perimeter: ${triPeri}`;
